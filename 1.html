@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Базовая разметка HTML</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #searchBox {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    #results {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .formula-box {
+      width: 100px;
+      height: 100px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+
+    .formula-box:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🔍 Поиск формулы</h2>
+  <input type="text" id="searchBox" placeholder="Введите ключевое слово...">
+  <div id="results"></div>
+
+  <script src="PhysiCalc.js"></script>
+
+</body>
+</html>
