@@ -20,6 +20,7 @@ body{
     height: 320px;
     border-radius: 55px;
     width: 720px;
+    padding-top: 1px;
 }
 
 .right-box-1 {
@@ -28,6 +29,7 @@ body{
     height: 1485px;
     margin-left: 50px;
     border-radius: 55px;
+    padding-top: 8px;
 }
 
 .row-1{
@@ -133,10 +135,11 @@ ul{
 }
 
 .formul-window{
-    width: 700px;
-    height: 1120px;
+    margin-top: 30px;
+    width: 710px;
+    height: 1145px;
     background: url(https://minecraft-inside.ru/images/2016/box_body_background.png);
-    border-radius: 40px;
+    border-radius: 55px;
 }
 
 h1{
