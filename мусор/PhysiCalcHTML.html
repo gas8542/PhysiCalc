@@ -11,9 +11,7 @@
     </head>
 <body>
     <header>
-        <div class="logo">
-
-        </div>
+        <img src="logo.png" class="logo_img"></img>
     </header>
     <div class="HADER-1">
         <ul class="row-1">
@@ -21,20 +19,26 @@
                 <div class="HADER-2">
                     <form>
                         <input class="window-input" style="text-align: center;" type="text" placeholder="Введите значение" id="searchBox">
-                        </form>
+                    </form>
                 </div>
                 <div class="formul-window">
-
+                    <ul class="formul" id="formulJS">
+                        <li class="mkt" id="meh_swap_Elements"></li>
+                        <li class="mkt" id="mkt_swap_Elements"></li>
+                        <li class="mkt" id="electrostatics_swap_Elements"></li>
+                        <li class="mkt" id="DC_swap_Elements"></li>
+                        <li class="mkt" id="bylerwbz_swap_Elements"></li>
+                    </ul>
                 </div>
             </li>
             <li>
                 <div class="right-box-1">
                     <ul class="tems">
-                        <li class="tem"><h1 class="paragraf">МЕХАНИКА</h1></li>
-                        <li class="tem"><h1 class="paragraf">МКТ</h1></li>
-                        <li class="tem-1"><h1 class="paragraf-1">электро-<br>статика</h1></li>
-                        <li class="tem-2"><h1 class="paragraf-2">посто-<br>янный<br>ток</h1></li>
-                        <li class="tem"><h1 class="paragraf">ИНДУКЦИЯ</h1></li>
+                        <li><button class="button_paragraf" onclick="mehJS()"><h1 class="paragraf">МЕХАНИКА</h1></button></li>
+                        <li><button class="button_paragraf" onclick="mktJS()"><h1 class="paragraf">МКТ</h1></button></li>
+                        <li><button class="button_paragraf_1" onclick="electrostatics_swap_ElementsJS()"><h1 class="paragraf-1">ЭЛЕКТРОСТАТИКА</h1></button></li>
+                        <li><button class="button_paragraf_2" onclick="DC_swap_ElementsJS()"><h1 class="paragraf-2">ПОСТОЯННЫЙ ТОК</h1></button></li>
+                        <li><button class="button_paragraf_3" onclick="bylerwbz_swap_ElementsJS()"><h1 class="paragraf">ИНДУКЦИЯ</h1></button></li>
                     </ul>
                 </div>
             </div>
