@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="На этом сайте вы можете легко решать задачи с помощью чат бота, а также нахадить формулы с полным 
+    аписанием всех значений формулы и легко нахадить формулы по запросу">
+    <title>PhysiCalc</title>
+    <link rel="stylesheet" href="PhysiCalcCSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <ul class="hader_ul">
+            <li class="hader_li_css" style="margin-right: 10px;"><img src="logo.png" class="logo_img"></img></li>
+            <li class="hader_li_css" style="margin-right: 1200px;"><h1 style="width: 150px;">PhysiCalc</h1></li>
+        </ul>
+    </header>
+    <div class="HADER-1">
+        <ul class="row-1">
+            <li>
+                <div class="HADER-2">
+                    <form>
+                        <input class="window-input" style="text-align: center;" type="text" placeholder="Введите значение" id="searchBox">
+                    </form>
+                </div>
+                <div class="formul-window">
+                    <ul class="formul" id="formulJS">
+                        <li class="mkt" id="li_mkt">
+                            
+                        </li>
+                        <li class="mkt" id="meh_swap_Elements">
+                            <ul class="formul_spisk_mkt" id="formul_spisk_mkt_js">
+                                <li class="formul_mkt_1"><h1>МЕХАНИКА</h1></li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_1_formule_bu_id_js">
+                                        <button id="meh_1_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_1()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/1_1_centrostremitelnoe_uskorenie.png" style="margin-right: 750px; width: 60px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_1">
+                                        </button>
+                                        <div id="meh_listContainer_1">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_2_formule_bu_id_js">
+                                      <button id="meh_2_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_2()">
+                                        <img class="img_mkt_1_formule_css" src="картинки формул/механика/1_1_skorost.png" style="margin-right: 750px; width: 60px; height: 40px;">
+                                        <img src="up.png" class="arrow_button" id="arrow_img_id_2">
+                                      </button>
+                                      <div id="meh_listContainer_2">
+                                      </div>
+                                    </div>
+                                  </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_3_formule_bu_id_js" onclick="button_click_meh_3()">
+                                        <button id="meh_3_formule_by_id" class="mkt_1_formule_css">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/1_1_skorost_uskorennogo_dvizheniya.png" style="margin-right: 700px; width: 110px; height: 20px;"><img src="up.png" class="arrow_button" id="arrow_img_id_3">
+                                        </button>
+                                        <div id="meh_listContainer_3">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_4_formule_bu_id_js">
+                                        <button id="meh_4_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_4()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/1_1_srednyaya_skorost.png" style="margin-right: 610px; width: 200px; height: 40px;"><img src="up.png" class="arrow_button" id="arrow_img_id_4">
+                                        </button>
+                                        <div id="meh_listContainer_4">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_5_formule_bu_id_js">
+                                        <button id="meh_5_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_5()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/1_1_srednyaya_skorost_na_uchastke_puti.png" style="margin-right: 750px; width: 60px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_5">
+                                        </button>
+                                        <div id="meh_listContainer_5">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_6_formule_bu_id_js">
+                                        <button id="meh_6_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_6()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/1_1_uskorenie.png" style="margin-right: 670px; width: 140px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_6">
+                                        </button>
+                                        <div id="meh_listContainer_6">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_7_formule_bu_id_js">
+                                        <button id="meh_7_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_7()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/1_2_1.png" style="margin-right: 730px; width: 80px; height: 25px;"><img src="up.png" class="arrow_button" id="arrow_img_id_7">
+                                        </button>
+                                        <div id="meh_listContainer_7">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_8_formule_bu_id_js">
+                                        <button id="meh_8_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_8()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/1_2_2.png" style="margin-right: 660px; width: 150px; height: 30px;"><img src="up.png" class="arrow_button" id="arrow_img_id_8">
+                                        </button>
+                                        <div id="meh_listContainer_8">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_9_formule_bu_id_js">
+                                        <button id="meh_9_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_9()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/1_2_3 (1).png" style="margin-right: 580px; width: 230px; height: 30px;"><img src="up.png" class="arrow_button" id="arrow_img_id_9">
+                                        </button>
+                                        <div id="meh_listContainer_9">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_10_formule_bu_id_js">
+                                        <button id="meh_10_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_10()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/impuls_tela.png" style="margin-right: 730px; width: 80px; height: 25px;"><img src="up.png" class="arrow_button" id="arrow_img_id_10">
+                                        </button>
+                                        <div id="meh_listContainer_10">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_11_formule_bu_id_js">
+                                        <button id="meh_11_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_11()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/rasstoyanie_telo_broshennoe_pod_uglom_k_gorizonty.png" style="margin-right: 710px; width: 100px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_11">
+                                        </button>
+                                        <div id="meh_listContainer_11">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_12_formule_bu_id_js">
+                                        <button id="meh_12_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_12()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/skorost_padenie_tela_bez_nachalnoy_skorosti.png" style="margin-right: 690px;  width: 120px; height: 25px;"><img src="up.png" class="arrow_button" id="arrow_img_id_12">
+                                        </button>
+                                        <div id="meh_listContainer_12">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_13_formule_bu_id_js">
+                                        <button id="meh_13_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_13()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/vremya_padenie_tela_bez_nachalnoy_skorosti.png" style="margin-right: 690px; width: 120px; height: 55px;"><img src="up.png" class="arrow_button" id="arrow_img_id_13">
+                                        </button>
+                                        <div id="meh_listContainer_13">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_14_formule_bu_id_js">
+                                        <button id="meh_14_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_14()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/vremya_telo_broshennoe_pod_uglom_k_gorizonty.png" style="margin-right: 710px; width: 100px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_14">
+                                        </button>
+                                        <div id="meh_listContainer_14">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_15_formule_bu_id_js">
+                                        <button id="meh_15_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_15()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/vysota_padenie_tela_bez_nachalnoy_skorosti.png" style="margin-right: 690px; width: 120px; height: 55px;"><img src="up.png" class="arrow_button" id="arrow_img_id_15">
+                                        </button>
+                                        <div id="meh_listContainer_15">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_16_formule_bu_id_js">
+                                        <button id="meh_16_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_16()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/vysota_telo_broshennoe_pod_uglom_k_gorizonty.png" style="margin-right: 690px; width: 120px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_16">
+                                        </button>
+                                        <div id="meh_listContainer_16">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_meh_17_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="meh_17_formule_by_id" class="mkt_1_formule_css" onclick="button_click_meh_17()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/механика/zakon_vsemirnogo_tyagoteniya.png" style="margin-right: 710px; width: 100px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_17">
+                                        </button>
+                                        <div id="meh_listContainer_17">
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mkt" id="mkt_swap_Elements">
+                            <ul class="formul_spisk_mkt">
+                                <li class="formul_mkt_1"><h1>МКТ</h1></li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_mkt_1_formule_bu_id_js">
+                                        <button id="mkt_1_formule_by_id" class="mkt_1_formule_css" onclick="button_click_mkt_1()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/мкт/davlenie_idealnogo_gaza.png" style="margin-right: 750px;"><img src="up.png" class="arrow_button" id="arrow_img_id_18">
+                                        </button>
+                                        <div id="listContainer">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_mkt_3_formule_bu_id_js">
+                                        <button id="mkt_3_formule_by_id" class="mkt_1_formule_css" onclick="button_click_mkt_3()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/мкт/kolichestvo_veshchestva.png" style="margin-right: 703px; width: 120px; height: 50px;"><img src="up.png" class="arrow_button" id="arrow_img_id_20">
+                                        </button>
+                                        <div id="listContainer_3">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_mkt_4_formule_bu_id_js">
+                                        <button id="mkt_4_formule_by_id" class="mkt_1_formule_css" onclick="button_click_mkt_4()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/мкт/osnovnoe_uravnenie_molekulyarno_kineticheskoy_teorii_idealnogo_gaza.png" style="margin-right: 705px; width: 120px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_21">
+                                        </button>
+                                        <div id="listContainer_4">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_mkt_5_formule_bu_id_js">
+                                        <button id="mkt_5_formule_by_id" class="mkt_1_formule_css" onclick="button_click_mkt_5()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/мкт/pervyy_zakon_termodinamiki.png" style="margin-right: 695px; width: 130px; height: 20px;"><img src="up.png" class="arrow_button" id="arrow_img_id_22">
+                                        </button>
+                                        <div id="listContainer_5">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_mkt_6_formule_bu_id_js">
+                                        <button id="mkt_6_formule_by_id" class="mkt_1_formule_css" onclick="button_click_mkt_6()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/мкт/srednyaya_kineticheskaya_energiya_molekuly_odnoatomnogo_gaza.png" style="margin-right: 722px; width: 100px; height: 43px;"><img src="up.png" class="arrow_button" id="arrow_img_id_23">
+                                        </button>
+                                        <div id="listContainer_6">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_2_formule_css" id="div_mkt_7_formule_bu_id_js">
+                                        <button id="mkt_7_formule_by_id" class="mkt_1_formule_css" onclick="button_click_mkt_7()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/мкт/srednyaya_kvadratichnaya_skorost_molekul_idealnogo_gaza.png" style="margin-right: 610px; width:210px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_24">
+                                        </button>
+                                        <div id="listContainer_7">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_mkt_9_formule_bu_id_js">
+                                        <button id="mkt_9_formule_by_id" class="mkt_1_formule_css" onclick="button_click_mkt_9()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/мкт/uravnenie_mendeleeva_klapeyrona.png" style="margin-right: 720px; width: 100px;"><img src="up.png" class="arrow_button" id="arrow_img_id_26">
+                                        </button>
+                                        <div id="listContainer_9">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_mkt_11_formule_bu_id_js">
+                                        <button id="mkt_11_formule_by_id" class="mkt_1_formule_css" onclick="button_click_mkt_11()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/мкт/zakon_boylya_mariotta.png" style="margin-right: 620px; width: 200px;"><img src="up.png" class="arrow_button" id="arrow_img_id_28">
+                                        </button>
+                                        <div id="listContainer_11">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_mkt_12_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="mkt_12_formule_by_id" class="mkt_1_formule_css" onclick="button_click_mkt_12()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/мкт/zakon_sharlya.png" style="margin-right: 610px; width:210px; height: 20px;"><img src="up.png" class="arrow_button" id="arrow_img_id_29">
+                                        </button>
+                                        <div id="listContainer_12">
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mkt" id="electrostatics_swap_Elements">
+                            <ul class="formul_spisk_mkt">
+                                <li class="formul_mkt_1"><h1>ЭЛЕКТРИЧЕСТВО</h1></li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_1_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_1_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_1()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/emkost_ploskogo_kondesatora.png" style="margin-right: 760px; width:60px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_30">
+                                        </button>
+                                        <div id="elektro_listContainer_1">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_2_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_2_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_2()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/energiya_ploskogo_kondesatora.png" style="margin-right: 750px; width:70px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_31">
+                                        </button>
+                                        <div id="elektro_listContainer_2">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_2_formule_css" id="div_elektro_3_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_3_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_3()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/koefficient_poleznogo_deystviya_istochnika_toka.png" style="margin-right: 700px; width:120px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_32">
+                                        </button>
+                                        <div id="elektro_listContainer_3">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_4_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_4_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_4()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/napryazhennost_elektricheskogo_polya_vblizi_ot_poverhnosti_provodnika.png" style="margin-right: 760px; width:60px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_33">
+                                        </button>
+                                        <div id="elektro_listContainer_4">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_5_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_5_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_5()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/napryazhennost_polya_uedinennogo_tochechnogo_zaryada.png" style="margin-right: 700px; width:120px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_34">
+                                        </button>
+                                        <div id="elektro_listContainer_5">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_6_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_6_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_6()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/poleznaya_moshhnost.png" style="margin-right: 680px; width:140px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_35">
+                                        </button>
+                                        <div id="elektro_listContainer_6">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_7_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_7_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_7()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/polnaya_moshhnost_razvivaemaya_istochnikom_toka.png" style="margin-right: 700px; width:120px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_36">
+                                        </button>
+                                        <div id="elektro_listContainer_7">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_8_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_8_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_8()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/potencial_tochki_v_pole_tochechnogo_zaryada.png" style="margin-right: 700px; width:120px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_37">
+                                        </button>
+                                        <div id="elektro_listContainer_8">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_9_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_9_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_9()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/potencialnaya_energiya_zaryada_v_elektrostaticheskom_pole.png" style="margin-right: 735px; width:85px; height: 20px;"><img src="up.png" class="arrow_button" id="arrow_img_id_38">
+                                        </button>
+                                        <div id="elektro_listContainer_9">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_10_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_10_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_10()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/potencialnaya_energiya_zaryada_v_pole_tochechnogo_zaryada.png" style="margin-right: 710px; width:110px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_39">
+                                        </button>
+                                        <div id="elektro_listContainer_10">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_11_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_11_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_11()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/rabota_postoyannogo_toka.png" style="margin-right: 740px; width:80px; height: 15px;"><img src="up.png" class="arrow_button" id="arrow_img_id_40">
+                                        </button>
+                                        <div id="elektro_listContainer_11">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_12_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_12_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_12()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/teorema_gaussa.png" style="margin-right: 750px; width:70px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_41">
+                                        </button>
+                                        <div id="elektro_listContainer_12">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_13_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_13_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_13()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/zakon_dzhoulya_lenca.png" style="margin-right: 740px; width:80px; height: 25px;"><img src="up.png" class="arrow_button" id="arrow_img_id_42">
+                                        </button>
+                                        <div id="elektro_listContainer_13">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_14_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_14_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_14()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/zakon_kulona.png" style="margin-right: 705px; width:115px; height: 45px;"><img src="up.png" class="arrow_button" id="arrow_img_id_43">
+                                        </button>
+                                        <div id="elektro_listContainer_14">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_15_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_15_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_15()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/zakon_oma_dlya_uchastka_odnorodnoy_cepi.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_44">
+                                        </button>
+                                        <div id="elektro_listContainer_15">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_elektro_16_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="elektro_16_formule_by_id" class="mkt_1_formule_css" onclick="button_click_elektro_16()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/электричество/zakon_oma_dlya_zamknutoy_cepi_s_istochnikom_toka.png" style="margin-right: 760px; width:60px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_45">
+                                        </button>
+                                        <div id="elektro_listContainer_16">
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mkt" id="DC_swap_Elements">
+                            <ul class="formul_spisk_mkt">
+                                <li class="formul_mkt_1"><h1>ОПТИКА</h1></li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_1_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_1_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_1()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/koefficient_otrazheniya.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_65">
+                                        </button>
+                                        <div id="optic_listContainer_1">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_2_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_2_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_2()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/koefficient_pogloshheniya.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_66">
+                                        </button>
+                                        <div id="optic_listContainer_2">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_3_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_3_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_3()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/koefficient_propuskaniya.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_67">
+                                        </button>
+                                        <div id="optic_listContainer_3">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_4_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_4_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_4()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/lineynoe_uvelichenie.png" style="margin-right: 740px; width:80px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_68">
+                                        </button>
+                                        <div id="optic_listContainer_4">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_5_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_5_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_5()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/opticheskaya_sila_linzy.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_69">
+                                        </button>
+                                        <div id="optic_listContainer_5">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_6_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_6_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_6()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/osnovnaya_formula_sfericheskogo_zerkala.png" style="margin-right: 720px; width:100px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_70">
+                                        </button>
+                                        <div id="optic_listContainer_6">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_7_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_7_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_7()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/osnovnaya_formula_tonkoy_linzy.png" style="margin-right: 740px; width:80px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_71">
+                                        </button>
+                                        <div id="optic_listContainer_7">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_8_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_8_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_8()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/osveshhennost.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_72">
+                                        </button>
+                                        <div id="optic_listContainer_8">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_9_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_9_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_9()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/otnositelnyy_pokazatel_prelomleniya.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_73">
+                                        </button>
+                                        <div id="optic_listContainer_9">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_10_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_10_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_10()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/otnositelnyy_pokazatel_prelomleniya.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_74">
+                                        </button>
+                                        <div id="optic_listContainer_10">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_11_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_11_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_11()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/potok_izlucheniya.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_75">
+                                        </button>
+                                        <div id="optic_listContainer_11">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_12_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_12_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_12()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/predelnyy_ugol_polnogo_vnutrennego_otrazheniya.png" style="margin-right: 740px; width:80px; height: 20px;"><img src="up.png" class="arrow_button" id="arrow_img_id_76">
+                                        </button>
+                                        <div id="optic_listContainer_12">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_13_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_13_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_13()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/sila_sveta.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_77">
+                                        </button>
+                                        <div id="optic_listContainer_13">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_14_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_14_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_14()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/svetosila_linzy.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_78">
+                                        </button>
+                                        <div id="optic_listContainer_14">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_15_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_15_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_15()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/uglovoe_uvelichenie.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_79">
+                                        </button>
+                                        <div id="optic_listContainer_15">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_16_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_16_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_16()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/uvelichenie_mikroskopa.png" style="margin-right: 720px; width:100px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_80">
+                                        </button>
+                                        <div id="optic_listContainer_16">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_17_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_17_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_17()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/uvelichenie_zritelnoy_truby.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_81">
+                                        </button>
+                                        <div id="optic_listContainer_17">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_18_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_18_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_18()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/yarkost_istochnika_sveta.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_82">
+                                        </button>
+                                        <div id="optic_listContainer_18">
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="div_mkt_1_formule_css" id="div_optic_19_formule_bu_id_js" style="margin-bottom: 10px;">
+                                        <button id="optic_19_formule_by_id" class="mkt_1_formule_css" onclick="button_click_optic_19()">
+                                            <img class="img_mkt_1_formule_css" src="картинки формул/оптика/zakon_prelomleniya_sveta.png" style="margin-right: 770px; width:50px; height: 35px;"><img src="up.png" class="arrow_button" id="arrow_img_id_83">
+                                        </button>
+                                        <div id="optic_listContainer_19">
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mkt" id="bylerwbz_swap_Elements">
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="right-box-1">
+                    <ul class="tems">
+                        <li><button class="button_paragraf" onclick="mehJS()"><h1 class="paragraf">МЕХАНИКА</h1></button></li>
+                        <li><button class="button_paragraf" onclick="mktJS()"><h1 class="paragraf">МКТ</h1></button></li>
+                        <li><button class="button_paragraf_1" onclick="electrostatics_swap_ElementsJS()"><h1 class="paragraf-1">ЭЛЕКТРИЧЕСТВО</h1></button></li>
+                        <li><button class="button_paragraf_2" onclick="DC_swap_ElementsJS()"><h1 class="paragraf-2">ОПТИКА</h1></button></li>
+                        <li><button class="button_paragraf_3" onclick="bylerwbz_swap_ElementsJS()"><h1 class="paragraf">ИНДУКЦИЯ</h1></button></li>
+                    </ul>
+                    <div class="box_chat_bot" id="box_chat_bot_id">
+
+                    </div>
+                    </ul>
+                </div>
+            </div>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+
+    </footer>
+    <script src="PhysiCalcJS.js"></script>
+</body>
+</html>
